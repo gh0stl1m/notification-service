@@ -13,7 +13,6 @@ type Event struct {
 }
 
 type EventsHistory struct {
-	ID        int64     `bson:"id,omitempty"`
 	State     string    `bson:"state,omitempty"`
 	CreatedAt time.Time `bson:"created_at,omitempty"`
 }
